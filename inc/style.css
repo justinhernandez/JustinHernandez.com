@@ -1,0 +1,125 @@
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+html {
+	background-color: #3B3B3B;
+	color: white;
+	width: 800px;
+	margin: auto;
+	min-width: 800px;
+	font-family: Georgia,'Times New Roman',times,serif;
+}
+
+.wrapper {
+	padding-top: 50px;
+	margin: auto;
+	width: 750px;
+}
+
+a, a:visited {
+	color: #8AC6F2;
+	outline: none;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a img {
+	border: none;
+}
+
+#theplug {
+	font-size: 1.6em;
+}
+
+#theplug p {
+	margin-top: 15px;
+}
+
+#ilove, #iplay {
+	font-size: 1.6em;
+	margin-top: 10px;
+}
+
+#iplay li {
+	display: inline;
+	list-style-type: none;
+}
+
+#iplay_pull {
+	margin-top: -15px;
+}
+
+#social {
+	margin-top: 350px;
+}
+
+#findme {
+	margin-top: 25px;
+}
+
+#findme img {
+	height: 40px;
+	margin-left: 3px;
+}
+
+#footer {
+	margin: 200px auto auto;
+	width: 750px;
+	height: 50px;
+}
+
+#me_bg {
+	z-index: -999;
+	/* for IE */
+	filter:alpha(opacity=15);
+	/* CSS3 standard */
+	opacity:0.15;
+	position: absolute;
+	width: 400px;
+	margin-left: 200px;
+}
+
+.large {
+	font-size: 3em;
+}
+
+.dark {
+	color: #000;
+}
+
+.pink {
+	color: #FBA5B3;
+}
+
+.green {
+	color: #A3FF8F;
+}
+
+.blue {
+	color: #8AC6F2;
+}
+
+.left {
+	float:left;
+}
+
+.right {
+	float: right;
+}
+
+.qtip-content {
+	font-size: 1.6em;
+	text-transform: lowercase;
+}
+
+.me {
+	text-shadow: 1px 2px 3px black;
+}
