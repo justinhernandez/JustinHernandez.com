@@ -24,23 +24,61 @@ html {
 a, a:visited {
 	color: #8AC6F2;
 	outline: none;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 a:hover {
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 a img {
 	border: none;
 }
 
+#menu {
+	list-style-type: none;
+	float: left;
+	margin: 10px 50px 0 0;
+}
+
+#menu li {
+	display: inline;
+	margin-right: 15px;
+}
+
+#menu li a {
+	color: #A3FF8F;
+}
+
+#greeting {
+	font-size: 4em;
+	text-decoration: none;
+	color: #EDDD3D;
+	text-shadow: 1px 2px 3px black;
+}
+
+#about, #resume {
+	margin-top: 25px;
+	font-family: 'Cabin', arial, serif;
+}
+
 #theplug {
-	font-size: 1.6em;
+	font-size: 1.1em;
+}
+
+#theplug h3 {
+	text-align: right;
+	margin-top: 25px;
+	color: #FBA5B3;
+	text-shadow: 1px 2px 3px black;
 }
 
 #theplug p {
 	margin-top: 15px;
+}
+
+#theplug ul {
+	margin: 15px 0;
 }
 
 #ilove, #iplay {
@@ -57,34 +95,14 @@ a img {
 	margin-top: -15px;
 }
 
-#social {
-	margin-top: 350px;
-}
-
-#findme {
-	margin-top: 25px;
-}
-
-#findme img {
-	height: 40px;
-	margin-left: 3px;
+#ilove {
+	font-family: 'VT323', arial, serif;
 }
 
 #footer {
-	margin: 200px auto auto;
+	margin: 100px auto auto;
 	width: 750px;
 	height: 50px;
-}
-
-#me_bg {
-	z-index: -999;
-	/* for IE */
-	filter:alpha(opacity=15);
-	/* CSS3 standard */
-	opacity:0.15;
-	position: absolute;
-	width: 400px;
-	margin-left: 200px;
 }
 
 .large {
@@ -122,4 +140,8 @@ a img {
 
 .me {
 	text-shadow: 1px 2px 3px black;
+}
+
+#about {
+	display: none;
 }

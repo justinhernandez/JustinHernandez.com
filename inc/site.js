@@ -1,9 +1,10 @@
 var captionLength = 0;
 var stuff_list = ['programming', 'beer', 'people', 'porkchops', 'q-tips',
-'jquery', 'php', 'ruby', 'classical music', 'npr', 'gum', 'menudo', 'v-neck tees',
+'jquery', 'php', 'ruby', 'classical music', 'gum', 'menudo', 'v-neck tees',
 'football', 'netbeans', "america's most wanted", 'rice', 'spam musubis', 'having fun',
 'jokes', 'algorithms', 'cartoons', 'the internet', 'hawaii', 'computers',
-'simplicity', 'minimalism', 'coffee', 'laughing', 'osx', 'sashimi', 'grandma'];
+'simplicity', 'minimalism', 'coffee', 'laughing', 'osx', 'sashimi', 'grandma',
+'hawaii'];
 var stuff_index = 0;
 var stuff_count = stuff_list.length;
 // shuffle
@@ -16,11 +17,18 @@ $(function(){
 	type();
 	// enable qtip
 	qtips();
-	// set bg
-	me_bg();
 	// open links in new window
-	$('a').click(function(){
+	$('a').not('.menu').click(function(){
 		window.open(this.href);
+		return false;
+	});
+	// enable menu
+	$('.menu').click(function(){
+		text = $(this).text();
+		$('.info:visible').hide(0, function(){
+			$('#'+text).fadeIn(1500);
+		});
+		
 		return false;
 	});
 });
@@ -43,13 +51,6 @@ function type()
 		// run type
 		setTimeout('type()', 2500);
 	}
-}
-
-// position background pic right above footer
-function me_bg()
-{
-	p = $('#footer').position();
-	$('#me_bg').css({ top: p.top-75 });
 }
 
 // get a new caption
