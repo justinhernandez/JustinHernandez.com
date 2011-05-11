@@ -96,7 +96,7 @@
 					<a href="http://www.appdevandmktg.com">ADAM</a> <br/>
 					Responsibilities:
 					<ul>
-						<li>Develop custom LAMP backend using CodeIgniter</li>
+						<li>Work on developing a custom LAMP backend using CodeIgniter</li>
 						<li>Writing unit tests</li>
 					</ul>
 				</p>
@@ -140,7 +140,7 @@
 					Computer Training Academy, Honolulu <br/>
 					Responsibilities:
 					<ul>
-						<li>Work on projects using various programming languages</li>
+						<li>Work on various projects using ASP, JavaScript and HTML</li>
 						<li>Increase proficiency and knowledge in the computer field</li>
 						<li>Give a presentation to local bank executives highlighting the benefit of internships for young adults</li>
 					</ul>
